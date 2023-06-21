@@ -1,5 +1,5 @@
 Hosting only:
-
+https://console.firebase.google.com/
 1. Create Firebase project and a new web app as part of this project
 2. Install npm packages like firebase, firebase-cli (global npm installs)
 3. in .firebasesrc set your projectID
