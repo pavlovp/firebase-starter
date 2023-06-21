@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voizpad</title>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js";
+
+        const firebaseConfig = {
+            apiKey: "xxxxxxxxx",
+            authDomain: "xxxxxxxxxxxx",
+            projectId: "xxxxxxxxx",
+            storageBucket: "xxxxxxxxxxxx" //...other keys
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to starter!</h1>
+    </header>
+
+    <main>
+        <!-- Your page content goes here -->
+    </main>
+
+    <footer>
+        Starter
+    </footer>
+</body>
+
+</html>

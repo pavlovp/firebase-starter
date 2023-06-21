@@ -1,0 +1,15 @@
+{
+  "name": "firebase-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "firebase deploy",
+    "df": "firebase deploy --only functions",
+    "dh": "firebase deploy --only hosting",
+    "start": "firebase serve"
+  },
+  "author": "",
+  "license": "ISC"
+}
